@@ -8,5 +8,7 @@
        ~ Front End: HTML, CSS, React
        ~ Back End: Node
        ~ Baza de date: MySQL sau Microsoft SQL Server 
+       
 ###fgd
-      gf  
+      - gf
+      - fds
