@@ -11,7 +11,7 @@
        
 ### Planul proiectului: 
 ~~~
-- Prima pagina = Pagina de "Log in", in care se regasesc 2 optiuni: "Autentificare" si "Inregistrare"
+- Pagina 1 = Pagina de "Log in", in care se regasesc 2 optiuni: "Autentificare" si "Inregistrare"
 - Pagina 2 = Pagina principala in care se regasesc produse care se potrivesc cu locatia si preferintele utilizatorului. De aici poti intra in "frigiderul" propriu, in cosul de cumparaturi si in bara in care poti sa cauti produsul dorit dintr-o localitate specificata.
 - Pagina 3 = Pagina utilizatorului, "frigiderul" acestuia. De aici se pot adauga, se pot sterge si se pot vedea produsele
 - Pagina 4 = Cosul de cumparaturi
