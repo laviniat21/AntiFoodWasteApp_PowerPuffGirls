@@ -10,3 +10,4 @@ O sa folosim tehnologiile:
         Baza de date: MySQL sau Microsoft SQL Server 
         
         
+
