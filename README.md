@@ -4,9 +4,9 @@
 
 
  
-O sa folosim tehnologiile:
-        Front End: HTML, CSS, React
-        Back End: Node
-        Baza de date: MySQL sau Microsoft SQL Server 
-        
-        
+### Tehnologiile folosite:
+       ~ Front End: HTML, CSS, React
+       ~ Back End: Node
+       ~ Baza de date: MySQL sau Microsoft SQL Server 
+###fgd
+      gf  
