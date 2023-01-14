@@ -1,4 +1,4 @@
-const User=require("../modele/User");
+const User=require("../back-end/modele/User");
 const router=require("express").Router();
 router.route("/user").post(async(req,res)=>{
     try{

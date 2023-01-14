@@ -4,7 +4,7 @@ const port = 1234;
 const sequelize=require("./sequelize");
 require("./modele/User")
 app.use(express.json());
-app.use("/api",require("./routes/user"))
+app.use("/api",require("../routes/user"))
 app.get("/nume",(req,res)=>{
     res.send("Aici vom vedea textul nostru :>");
 })
