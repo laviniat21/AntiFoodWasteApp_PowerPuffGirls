@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+
+    <title>Frigiderul meu</title>
+  </head>
+  <body style="color: white; background-color: black">
+    <div class="container mt-5">
+      <div class="text-center">
+        <h1 class="display-5 mb-5"><strong>Frigiderul meu</strong></h1>
+      </div>
+      <div class="main row justify-content-center">
+        <form
+          action=""
+          id="produs-form"
+          class="row justify-content-center mb-4"
+          autocomplete="off"
+        >
+          <div class="col-10 col-md-8 mb-3">
+            <label for="numeProdus">Nume produs</label>
+            <input
+              class="form-control"
+              id="numeProdus"
+              type="text"
+              placeholder="Scrieti numele produsului"
+            />
+          </div>
+          <div class="col-10 col-md-8 mb-3">
+            <label for="pretProdus">Pret produs</label>
+            <input
+              class="form-control"
+              id="pretProdus"
+              type="number"
+              step="0.01"
+              placeholder="Scrieti pretul produsului"
+            />
+          </div>
+          <div class="col-10 col-md-8 mb-3">
+            <label for="cantitateProdus">Cantitatea produsului</label>
+            <input
+              class="form-control"
+              id="cantitateProdus"
+              type="number"
+              step="0.01"
+              placeholder="Scrieti cantitatea produsului"
+            />
+          </div>
+          <div class="col-10 col-md-8 mb-3">
+            <label for="dataLimitaProdus">Data de expirare a produsului</label>
+            <input
+              class="form-control"
+              id="dataLimitaProdus"
+              type="date"
+              placeholder="Scrieti data de expirare a produsului"
+            />
+          </div>
+          <div class="col-10 col-md-10">
+            <input
+              class="btn btn-success add-btn"
+              type="submit"
+              value="Adauga"
+            />
+          </div>
+        </form>
+        <div class="col-12 mt-5">
+          <table class="table table-stripped table-dark">
+            <thead>
+              <tr>
+                <th>Nume</th>
+                <th>Pret</th>
+                <th>Cantitate</th>
+                <th>Data limita</th>
+                <th>Actiuni</th>
+              </tr>
+            </thead>
+            <tbody id="produse-lista">
+              <tr>
+                <!-- <td>Dear</td>
+                <td>Programmer</td>
+                <td>25</td>
+                <td>25</td>
+                <td>
+                  <a href="#" class="btn btn-warning btn-sm Editati">Editati</a>
+                  <a href="#" class="btn btn-danger btn-sm Stergeti">Stergeti</a>
+                </td> -->
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <script src="frigiderScript.js"></script>
+  </body>
+</html>

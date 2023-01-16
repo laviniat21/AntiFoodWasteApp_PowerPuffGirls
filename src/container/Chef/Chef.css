@@ -1,0 +1,22 @@
+.app__owners-content
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    margin-top: 5rem;
+}
+
+.app__owners-content_quoate
+{
+    display: flex;
+    justify-content: flex;
+    align-items: flex-end;
+}
+
+.app__owners-content_quoate img
+{
+    width: 47px;
+    height: 40px;
+    margin: 0 1rem 1rem 0;
+}
